@@ -187,10 +187,12 @@ public class javaQRCode {
     }
 
     public static void main(String[] args) {
-        String imgPath = "e:/Michael_QRCode.png";
-        String encoderContent = "崔明辉";
+//        String imgPath = "e:/Michael_QRCode3.png";
+        String imgPath = "e:/cuiminghui.png";
+
+        String encoderContent = "渣渣";
         javaQRCode handler = new javaQRCode();
-        handler.encoderQRCode(encoderContent, imgPath, "png");
+//        handler.encoderQRCode(encoderContent, imgPath, "png");
 //      try {
 //          OutputStream output = new FileOutputStream(imgPath);
 //          handler.encoderQRCode(content, output);
@@ -199,7 +201,7 @@ public class javaQRCode {
 //      }
         System.out.println("========encoder success");
 
-
+//        String imgpath = "e:/image.png";
         String decoderContent = handler.decoderQRCode(imgPath);
         System.out.println("解析结果如下：");
         System.out.println(decoderContent);
