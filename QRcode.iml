@@ -7,8 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="zxing3.2.1" level="project" />
-    <orderEntry type="library" name="Qrcode_A" level="project" />
-    <orderEntry type="library" name="qrcode_B" level="project" />
+    <orderEntry type="library" exported="" name="Qrcode_A" level="project" />
+    <orderEntry type="library" exported="" name="qrcode_B" level="project" />
   </component>
 </module>
